@@ -2,18 +2,7 @@
 
 char c1,c2,c3,c4,c5;
 
-int main() {
-	starting();
-	printf("%c%c%c%c%c",pullr4(c1),pullr4(c2),pullr4(c3),pullr4(c4),pullr4(c5));
-	putchar(pullr4(c1));
-	putchar(pullr4(c2));
-	putchar(pullr4(c3));
-	putchar(pullr4(c4));
-	putchar(pullr4(c5));
-	return 0;
-}
-
-void starting() {
+void starting() {//≥ı ºªØ 
 	c1='C';
 	c2='h';
 	c3='i';
@@ -27,3 +16,16 @@ char pullr4(char a) {
 	else return a+4;
 	return a;
 	}
+	
+int main() {
+	starting();
+	c1=pullr4(c1);c2=pullr4(c2);c3=pullr4(c3);c4=pullr4(c4);c5=pullr4(c5);
+	printf("%c%c%c%c%c\n",c1,c2,c3,c4,c5);
+	putchar(c1);
+	putchar(c2);
+	putchar(c3);
+	putchar(c4);
+	putchar(c5);
+	return 0;
+}
+
