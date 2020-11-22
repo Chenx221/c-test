@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main() {
 	double speed,limit;
-	printf("ÔÚ´Ë¼üÈëÄãµÄ³µËÙºÍµ±Ç°µÀÂ·µÄËÙ¶ÈÏŞÖÆ\n");
+	printf("åœ¨æ­¤é”®å…¥ä½ çš„è½¦é€Ÿå’Œå½“å‰é“è·¯çš„é€Ÿåº¦é™åˆ¶\n");
 	scanf("%lf%lf",&speed,&limit);
-	if ((speed-limit)>=(limit*0.5)) printf("ÑÏÖØ³¬ËÙ£¬¼İÊ»Ö¤ÒÑ±»µõÏú");
-	else if((speed-limit)>=(limit*0.5)) printf("ÄúÒÑ³¬ËÙ£¬Çë½ÉÄÉ200Ôª·£¿î");
-	else printf("µ±Ç°³µËÙ·ûºÏ¹æ¶¨£¬Çë¼ÌĞø¼İÊ»");
+	if ((speed-limit)>=(limit*0.5)) printf("ä¸¥é‡è¶…é€Ÿï¼Œé©¾é©¶è¯å·²è¢«åŠé”€");
+	else if((speed-limit)>=(limit*0.1)) printf("æ‚¨å·²è¶…é€Ÿï¼Œè¯·ç¼´çº³200å…ƒç½šæ¬¾");
+	else printf("å½“å‰è½¦é€Ÿç¬¦åˆè§„å®šï¼Œè¯·ç»§ç»­é©¾é©¶");
 	
 
 
