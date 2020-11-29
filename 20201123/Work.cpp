@@ -2,11 +2,11 @@
 void reset(); 
 int n[5];
 int main() {
-    int pn,i;reset();
+    int pn;reset();
     printf("学生数量：");
     scanf("%d",&pn);int score[pn];
     printf("键入成绩: \n");
-    for (i =1;i<=pn;i++) {
+    for (int i =1;i<=pn;i++) {
         scanf("%d",&score[i]);
         if (score[i]>100) {
 			i--;
@@ -34,3 +34,4 @@ void reset(void) {
 		n[i]=0;i++;
 	}
 }
+//////////////////////////////////////////////
