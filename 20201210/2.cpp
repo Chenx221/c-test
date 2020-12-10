@@ -6,7 +6,7 @@ int main()
     while (scanf("%d",&temp),temp>0) {
         if (!even(temp)) sum+=temp;
     }
-    printf("奇数和为%d",sum);
+    printf("濂囨暟鍜屼负%d",sum);
     return 0;
 }
 int even(int n) {
