@@ -4,9 +4,9 @@ using namespace std;
 int countdigit(long long int,int);
 int main(){
 	long long int num;
-	printf("ÇëÊäÈëÒ»¸öÊı£º\n");
-	cin >>num;//Ã»ÓĞÕÒµ½ºÏÊÊµÄ·½Ê½À´ÓÃscanf´«Èëlong long intÀàĞÍ¸øsum 
-	printf("ÓĞ%d¸ö2",countdigit(num,2));
+	printf("è¯·è¾“å…¥ä¸€ä¸ªæ•°ï¼š\n");
+	cin >>num;//æ²¡æœ‰æ‰¾åˆ°åˆé€‚çš„æ–¹å¼æ¥ç”¨scanfä¼ å…¥long long intç±»å‹ç»™sum 
+	printf("æœ‰%dä¸ª2",countdigit(num,2));
 	return 0;
 }
 int countdigit (long long int a,int b) {
