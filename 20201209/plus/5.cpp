@@ -4,9 +4,10 @@ using namespace std;
 int countdigit(long long int,int);
 int main(){
 	long long int num;
-	printf("ÇëÊäÈëÒ»¸öÊı£º\n");
-	cin >>num;//Ã»ÓĞÕÒµ½ºÏÊÊµÄ·½Ê½À´ÓÃscanf´«Èëlong long intÀàĞÍ¸øsum 
-	printf("ÓĞ%d¸ö2",countdigit(num,2));
+	cout <<"è¯·è¾“å…¥ä¸€ä¸ªæ•°ï¼š"<<endl;
+	cin >>num;
+	int s=countdigit(num,2);
+	cout <<"æœ‰"<<s<<"ä¸ª2";
 	return 0;
 }
 int countdigit (long long int a,int b) {
